@@ -25,6 +25,6 @@ const component: React.VFC<Props> = (props) => {
   );
 };
 
-const styledComponent = styled(component)<Props>``;
+const styledComponent = styled(component)``;
 
 export default styledComponent;
