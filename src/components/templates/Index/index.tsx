@@ -1,11 +1,12 @@
-import React from "react";
-import ButtonList from "src/components/molecules/ButtonList";
-import styled from "styled-components";
+import React from 'react'
+
+import ButtonList from 'src/components/molecules/ButtonList'
+import styled from 'styled-components'
 
 type Props = {
-  pageName: string;
-  className?: string;
-};
+  pageName: string
+  className?: string
+}
 
 const component: React.VFC<Props> = (props) => {
   return (
@@ -13,8 +14,8 @@ const component: React.VFC<Props> = (props) => {
       <h1>{props.pageName}</h1>
       <ButtonList />
     </div>
-  );
-};
+  )
+}
 
 const styledComponent = styled(component)`
   display: flex;
@@ -23,6 +24,6 @@ const styledComponent = styled(component)`
   margin: 0 auto;
   justify-content: center;
   text-align: center;
-`;
+`
 
-export default styledComponent;
+export default styledComponent

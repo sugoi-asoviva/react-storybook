@@ -1,8 +1,9 @@
-import React from "react";
-import Index from "src/components/pages/Index";
+import React from 'react'
+
+import Index from 'src/components/pages/Index'
 
 const App: React.VFC = () => {
-  return <Index />;
-};
+  return <Index />
+}
 
-export default App;
+export default App
