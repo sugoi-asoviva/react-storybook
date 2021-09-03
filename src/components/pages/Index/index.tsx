@@ -1,6 +1,7 @@
-import React from "react";
-import Index from "src/components/templates/Index";
+import React from 'react'
 
-const component: React.VFC = () => <Index pageName={"テスト用のページ"} />;
+import Index from 'src/components/templates/Index'
 
-export default component;
+const component: React.VFC = () => <Index pageName={'テスト用のページ'} />
+
+export default component
