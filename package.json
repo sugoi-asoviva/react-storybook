@@ -9,7 +9,8 @@
     "build-storybook": "build-storybook",
     "test": "jest",
     "lint": "eslint src/**/*.{ts,tsx} && prettier --check 'src/**/*.{ts,tsx}'",
-    "fix": "eslint --fix src/**/*.{ts,tsx} && prettier --write 'src/**/*.{ts,tsx}'"
+    "fix": "eslint --fix src/**/*.{ts,tsx} && prettier --write 'src/**/*.{ts,tsx}'",
+    "prepare": "husky install"
   },
   "dependencies": {
     "react": "^17.0.2",
@@ -45,7 +46,9 @@
     "eslint-plugin-react": "^7.25.1",
     "eslint-plugin-unused-imports": "^1.1.4",
     "html-webpack-plugin": "^5.3.2",
+    "husky": "^7.0.0",
     "jest": "26",
+    "lint-staged": ">=10",
     "prettier": "^2.3.2",
     "react-test-renderer": "^17.0.2",
     "storybook-dark-mode": "^1.0.8",
@@ -55,5 +58,8 @@
     "webpack": "^5.51.2",
     "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.1.0"
+  },
+  "lint-staged": {
+    "*.{ts, tsx, js}": "yarn fix"
   }
 }
