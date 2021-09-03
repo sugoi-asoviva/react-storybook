@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots components/atoms/Button Dark 1`] = `
+<a
+  className="sc-bdfBQB leyNQF sc-gsTEea uEIIU"
+  href="https://kaiseihp.jp/news/id_11936"
+  rel="noreferrer noopener"
+  target="_blank"
+>
+  ハムストリングス
+</a>
+`;
+
+exports[`Storyshots components/atoms/Button Light 1`] = `
+<a
+  className="sc-bdfBQB leyNQF sc-gsTEea cCRasU"
+  href="https://kotobank.jp/word/%E3%83%86%E3%83%BC%E3%82%AF%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%82%BE%E3%83%BC%E3%83%B3-672484"
+  rel="noreferrer noopener"
+  target="_blank"
+>
+  テイクオーバーゾーン
+</a>
+`;
+
+exports[`Storyshots components/molecules/ButtonList Template 1`] = `
+<div
+  className="sc-hKgJUU"
+>
+  <a
+    className="sc-bdfBQB leyNQF sc-gsTEea cCRasU"
+    href="https://digital.go.jp"
+    rel="noreferrer noopener"
+    target="_blank"
+  >
+    デジタル庁
+  </a>
+  <span
+    className="sc-dlfnuX bhYHxz"
+  />
+  <a
+    className="sc-bdfBQB leyNQF sc-gsTEea uEIIU"
+    href="https://google.com"
+    rel="noreferrer noopener"
+    target="_blank"
+  >
+    グーグル
+  </a>
+</div>
+`;
