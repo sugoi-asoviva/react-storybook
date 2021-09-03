@@ -1,7 +1,8 @@
 import React from "react";
+import Index from "src/components/pages/Index";
 
 const App: React.VFC = () => {
-  return <p>Hello</p>;
+  return <Index />;
 };
 
 export default App;
