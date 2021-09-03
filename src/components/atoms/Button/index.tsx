@@ -8,14 +8,15 @@ const colors = {
   },
   'light': {
     text: '#303030',
-    bg: 'f0f0f0',
+    bg: '#f0f0f0',
   },
 }
 
-type Props = {
+export type Props = {
   buttonText: string;
   linkTo: string;
   colorTheme: keyof typeof colors;
+  border?: boolean;
   className?: string;
 }
 
@@ -36,7 +37,7 @@ const styledComponent = styled(component) <Props>`
   padding: .5rem;
   color: ${props => colors[props.colorTheme].text};
   background-color: ${props => colors[props.colorTheme].bg};
-  border: 1px ${props => colors[props.colorTheme].text} solid;
+  border: ${props => props.border && `1px ${colors[props.colorTheme].text} solid`};
 `
 
 export default styledComponent
