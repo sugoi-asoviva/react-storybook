@@ -3,17 +3,17 @@
   "include": ["**/*"],
   "exclude": ["node_modules"],
   "compilerOptions": {
-      "module": "ESNext",
-      "target": "ESNext",
-      "jsx": "react",
-      "lib": ["ESNext", "dom"],
-      "moduleResolution": "node",
-      "strict": true,
-      "newLine": "LF",
-      "esModuleInterop": true,
-      "baseUrl": ".",
-      "paths": {
-        "src/*": ["src/*"]
-      }
+    "module": "ESNext",
+    "target": "ESNext",
+    "jsx": "react",
+    "lib": ["ESNext", "dom"],
+    "moduleResolution": "node",
+    "strict": true,
+    "newLine": "LF",
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "src/*": ["src/*"]
+    }
   }
 }
