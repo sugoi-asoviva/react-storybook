@@ -16,6 +16,13 @@ const component: React.VFC<Props> = (props) => {
   )
 }
 
-const styledComponent = styled(component)``
+const styledComponent = styled(component)`
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+`
 
 export default styledComponent
